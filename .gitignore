@@ -1,0 +1,11 @@
+# secrets / local env
+.env
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# local outputs
+/tmp
+*.log
